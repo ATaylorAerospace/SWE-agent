@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25">
     
     
       
@@ -87,6 +87,24 @@
       
     </div>
     <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+              </button>
+            
+            
+<!-- This link won't work in local preview -->
+Forked/branched off of SWE-agent? Please use our latest formatting to resolve merge conflicts. See <a href="SWE-agent/dev/formatting_conflicts">here</a> for details.
+
+          </div>
+          
+            <script>var content,el=document.querySelector("[data-md-component=announce]");el&&(content=el.querySelector(".md-typeset"),__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0))</script>
+          
+        </aside>
       
     </div>
     
@@ -163,6 +181,43 @@
       <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     
     
       <div class="md-header__source">
@@ -731,8 +786,6 @@
       
         
       
-        
-      
     
     
     
@@ -747,7 +800,7 @@
             
   
   <span class="md-ellipsis">
-    Development
+    Configuration
   </span>
   
 
@@ -757,7 +810,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Development
+            Configuration
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -768,28 +821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dev/modify/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Modifying swe-agent
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../dev/config/" class="md-nav__link">
+      <a href="../../config/config/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -810,7 +842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dev/commands/" class="md-nav__link">
+      <a href="../../config/commands/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -831,7 +863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dev/demonstrations/" class="md-nav__link">
+      <a href="../../config/demonstrations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -852,11 +884,124 @@
   
   
     <li class="md-nav__item">
+      <a href="../../config/env/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment variables
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../dev/contribute/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Contribution guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/formatting_conflicts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Formatting conflicts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/code_structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code structure
   </span>
   
 
@@ -970,13 +1115,13 @@ Let's start with an absolutely trivial example and solve an issue about a simple
 <span class="w">  </span>--model_name<span class="w"> </span>gpt4<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--data_path<span class="w"> </span>https://github.com/SWE-agent/test-repo/issues/1<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--config_file<span class="w"> </span>config/default_from_url.yaml<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--per_instance_cost_limit<span class="w"> </span><span class="m">2</span>.00<span class="w"> </span>
+<span class="w">  </span>--per_instance_cost_limit<span class="w"> </span><span class="m">2</span>.00
 </code></pre></div>
-<p>Here, </p>
+<p>Here,</p>
 <ul>
 <li><code>--model_name</code> sets the language model that is used by SWE-agent (with <code>gpt4</code> being the default). More information on the available models in our <a href="../faq/">FAQ</a></li>
 <li><code>--data_path</code> points to the source of the <em>problem statement</em> (for example, the GitHub issue that you want to solve). You can also point it to local files (see <a href="#specifying-the-repository">below</a>)</li>
-<li><code>--config_file</code> includes settings such as the prompts. Changing the config file is the easiest way to get started with modifying SWE-agent (more advanced options are discussed <a href="../../dev/config/">here</a>).</li>
+<li><code>--config_file</code> includes settings such as the prompts. Changing the config file is the easiest way to get started with modifying SWE-agent (more advanced options are discussed <a href="../../config/config/">here</a>).</li>
 <li><code>--per_instance_cost_limit</code> limits the total inference cost to $2 (default is $3).</li>
 </ul>
 <div class="admonition tip">
@@ -986,13 +1131,16 @@ Let's start with an absolutely trivial example and solve an issue about a simple
 <div class="admonition tip">
 <p class="admonition-title">Running more than once</p>
 <ul>
-<li>The complete details of the run are saved as a "trajectory" file (more about them <a href="../trajectories/">here</a>). They can also be turned into new <a href="../../dev/modify/">demonstrations</a>.</li>
+<li>The complete details of the run are saved as a "trajectory" file (more about them <a href="../trajectories/">here</a>). They can also be turned into new <a href="../../config/demonstrations/">demonstrations</a>.</li>
 <li>If you run the same command more than once, you will find that SWE-agent aborts with <code>Skipping existing trajectory</code>. You can either remove the trajectory from the warning message, or add the <code>--skip_existing=False</code> flag.</li>
+<li>If you solve multiple issues from the same repository/in the same environment, you can specify the
+  <code>--cache_task_images</code> flag. This will create a persistent docker image with the initialized environment
+  required for the problem.</li>
 </ul>
 </div>
 <h2 id="specifying-the-repository">Specifying the repository</h2>
-<p>In the above example, the repository/codebase is inferred from the <code>--data_path</code>. 
-This options is currently only available for GitHub issues. 
+<p>In the above example, the repository/codebase is inferred from the <code>--data_path</code>.
+This options is currently only available for GitHub issues.
 For all other use cases, you can specify <code>--repo_path</code>, which accepts either GitHub
 URLs or paths to local repositories.</p>
 <p>To try it out, let's clone the test repository from the previous section.</p>
@@ -1025,7 +1173,7 @@ URLs or paths to local repositories.</p>
 <p>When running with a local <code>--repo_path</code>, SWE-agent will use the last commit, i.e., all local, uncommitted changes will not be seen by SWE-agent.</p>
 </div>
 <h2 id="installing-dependencies-and-setting-up-the-environment">Installing dependencies and setting up the environment</h2>
-<p>Now let's move on to a slightly more complicated issue (<a href="https://github.com/SWE-agent/test-repo/issues/22"><code>swe-agent/test-repo #22</code></a>). </p>
+<p>Now let's move on to a slightly more complicated issue (<a href="https://github.com/SWE-agent/test-repo/issues/22"><code>swe-agent/test-repo #22</code></a>).</p>
 <p>What makes it more complicated? This time the problematic code is part of a library <code>testpkg</code>, so SWE-agent first has to install the package in order to reproduce the issue before searching for the problematic code.</p>
 <p>In most circumstances, GPT4 will attempt to install the package and requirements (usually with some form of <code>pip install .</code> or <code>pip install pkg</code>). However, this wastes valuable queries to the LM. In addition, you might need to run your software for a specific python version or have other specific environment settings. The <code>--environment_setup</code> flag is used to fix this problem.</p>
 <p>Let's try it:</p>
@@ -1048,10 +1196,10 @@ URLs or paths to local repositories.</p>
 <h2 id="taking-actions">Taking actions</h2>
 <ul>
 <li>As mentioned <a href="#specifying-the-repository">above</a>, you can use <code>--apply_patch_locally</code> to have SWE-agent apply successful solution attempts to local files.</li>
-<li>Alternatively, when running on a GitHub issue, you can have the agent automatically open a PR if the issue has been solved by supplying the <code>--open_pr</code> flag. 
+<li>Alternatively, when running on a GitHub issue, you can have the agent automatically open a PR if the issue has been solved by supplying the <code>--open_pr</code> flag.
   Please use this feature responsibly (on your own repositories or after careful consideration).</li>
 </ul>
-<p>Alternatively, you can always retrieve the patch that was generated by SWE-agent. 
+<p>Alternatively, you can always retrieve the patch that was generated by SWE-agent.
 Watch out for the followoing message in the log:</p>
 <div class="highlight"><pre><span></span><code>╭──────────────────────────── 🎉 Submission successful 🎉 ────────────────────────────╮
 │ SWE-agent has produced a patch that it believes will solve the issue you submitted! │
@@ -1067,6 +1215,20 @@ Watch out for the followoing message in the log:</p>
 <span class="w"> </span><span class="nb">cd</span><span class="w"> </span>&lt;your<span class="w"> </span><span class="nb">local</span><span class="w"> </span>repo<span class="w"> </span>root&gt;
 <span class="w"> </span>git<span class="w"> </span>apply<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PATCH_FILE_PATH</span><span class="si">}</span><span class="s2">&quot;</span>
 </code></pre></div>
+<!-- BEGIN INCLUDE ../_footer.md -->
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a5.985 5.985 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6.002 6.002 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8Z"/></svg></span> <strong>Something broken?</strong>
+    <a href="https://github.com/princeton-nlp/SWE-agent/issues/new?template=bug_report.yml"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></svg></span> Report bug</a></p>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 19h3v3h-3v-3m2-17c5.35.22 7.68 5.62 4.5 9.67-.83 1-2.17 1.66-2.83 2.5C13 15 13 16 13 17h-3c0-1.67 0-3.08.67-4.08.66-1 2-1.59 2.83-2.25C15.92 8.43 15.32 5.26 12 5a3 3 0 0 0-3 3H6a6 6 0 0 1 6-6Z"/></svg></span> <strong>Something unclear?</strong>
+    <a href="https://github.com/princeton-nlp/SWE-agent/issues/new?template=question.yml"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></svg></span> Ask question</a></p>
+</li>
+</ul>
+</div>
+<!-- END INCLUDE -->
 
 
 
@@ -1153,7 +1315,7 @@ Watch out for the followoing message in the log:</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "content.action.edit", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "content.action.edit", "navigation.footer", "content.code.copy", "content.footnote.tooltips", "header.autohide", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
